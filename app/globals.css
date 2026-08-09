@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-navy-900 font-body antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-navy-900;
+  }
+  /* Visible focus states for keyboard navigation */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 3px solid #1e88e5;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  /* Signature element: the "flow line" — a thin animated water-line used to
+     underline section eyebrows and divide key moments across the site,
+     tying every page back to the brand name FlowPro. */
+  .flow-divider {
+    position: relative;
+    height: 3px;
+    width: 56px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #1e88e5, #69b5f7, #1e88e5);
+    background-size: 200% 100%;
+    animation: flow 4s linear infinite;
+  }
+
+  .section-eyebrow {
+    @apply inline-flex items-center gap-2 text-flow-600 font-semibold tracking-wide uppercase text-xs mb-3;
+  }
+
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10;
+  }
+
+  .card-surface {
+    @apply bg-white rounded-2xl shadow-card border border-mist-200 transition-all duration-300;
+  }
+
+  .card-surface:hover {
+    @apply shadow-card-hover -translate-y-1 border-flow-200;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-all duration-200 px-6 py-3.5 text-[15px] active:scale-[0.98];
+  }
+  .btn-primary {
+    @apply btn bg-flow-500 text-white shadow-button hover:bg-flow-600 hover:shadow-lg;
+  }
+  .btn-secondary {
+    @apply btn bg-white text-navy-900 border-2 border-navy-900/10 hover:border-flow-400 hover:text-flow-600;
+  }
+  .btn-outline-light {
+    @apply btn bg-transparent text-white border-2 border-white/40 hover:bg-white hover:text-navy-900;
+  }
+  .btn-emergency {
+    @apply btn bg-white text-navy-900 hover:bg-mist-100;
+  }
+
+  .form-input {
+    @apply w-full rounded-xl border border-mist-300 bg-white px-4 py-3 text-[15px] text-navy-900 placeholder:text-navy-400 transition-colors focus:border-flow-500;
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
