@@ -77,7 +77,7 @@ export default function ServiceAreasPage() {
             Don&apos;t See Your Area?
           </h2>
           <p className="mt-3 text-flow-50 max-w-xl mx-auto">
-            Give us a call to find out if we service your location — we're
+            Give us a call to find out if we service your location — we&apos;re
             often able to accommodate nearby areas as well.
           </p>
           <a href={business.phoneHref} className="btn-emergency mt-7 inline-flex !px-8">
