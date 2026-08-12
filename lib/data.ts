@@ -48,7 +48,7 @@ export const services: Service[] = [
       "Clear explanation before any work begins",
     ],
     image:
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1676210134188-4c05dd172f89?q=80&w=1200&auto=format&fit=crop",
   },
   {
     slug: "drain-cleaning",
@@ -361,7 +361,7 @@ export const galleryItems: GalleryItem[] = [
     category: "Water Heaters",
     title: "Tankless water heater install",
     image:
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1676210134190-3f2c0d5cf58d?q=80&w=1000&auto=format&fit=crop",
   },
   {
     id: "g6",
@@ -434,7 +434,7 @@ export const beforeAfterProjects = [
     before:
       "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=900&auto=format&fit=crop",
     after:
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1676210134190-3f2c0d5cf58d?q=80&w=900&auto=format&fit=crop",
   },
 ];
 

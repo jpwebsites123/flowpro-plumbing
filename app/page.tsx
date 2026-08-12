@@ -53,8 +53,8 @@ export default function HomePage() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-white/10 aspect-[4/3]">
               <Image
-                src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1200&auto=format&fit=crop"
-                alt="Professional plumber repairing a pipe under a kitchen sink inside a home"
+                src="https://images.unsplash.com/photo-1676210133055-eab6ef033ce3?q=80&w=1200&auto=format&fit=crop"
+                alt="Professional plumber repairing a pipe under a kitchen cabinet inside a home"
                 fill
                 priority
                 sizes="(min-width: 1024px) 560px, 100vw"
