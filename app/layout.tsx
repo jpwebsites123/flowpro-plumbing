@@ -19,6 +19,7 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://flowproplumbing-demo.example.com"),
+  manifest: "/site.webmanifest",
   title: {
     default: "FlowPro Plumbing & Drain | Local Plumber Near You",
     template: "%s | FlowPro Plumbing & Drain",

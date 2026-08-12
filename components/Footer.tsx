@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="container-page py-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-2.5 mb-4">
-            <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-flow-500">
+            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-flow-500">
               <Wrench className="h-5 w-5 text-white" strokeWidth={2.5} />
             </span>
             <span className="flex flex-col leading-none">

@@ -36,7 +36,7 @@ export default function Navbar() {
           className="flex items-center gap-2.5 shrink-0"
           aria-label="FlowPro Plumbing & Drain — Home"
         >
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-flow-500">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-flow-500">
             <Wrench className="h-5 w-5 text-white" strokeWidth={2.5} />
           </span>
           <span className="flex flex-col leading-none">
